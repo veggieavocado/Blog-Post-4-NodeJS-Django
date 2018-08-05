@@ -1,0 +1,67 @@
+/* default css settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+/* default css settings end here */
+
+/* 네비게이션 CSS 정의 */
+.navbar {
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+  .navbar > .nav-logo {
+    font-size: 2rem;
+    color: #2BDE73;
+  }
+
+    .nav-actions > button {
+      width: 6rem;
+      border: solid 1.5px #3F3F3F;
+      border-radius: 4px;
+      padding: 0.3rem;
+    }
+/* 네비게이션 CSS 정의 끝 */
+
+/* 컨텐츠 부분 CSS 정의 */
+.content {
+  margin-top: 1rem;
+  display: flex;
+  height: 30rem;
+}
+
+  .content > .content-title {
+    width: 50%;
+    background-color: #C986FC;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content > .content-body {
+    width: 50%;
+    background-color: #C4B07B;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+/* 컨텐츠 부분 CSS 정의 끝 */
+
+/* 푸터 CSS 정의 */
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 11rem;
+}
+/* 푸터 CSS 정의 끝 */
